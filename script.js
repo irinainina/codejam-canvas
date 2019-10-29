@@ -60,7 +60,7 @@ function drawOnCanvas(event) {
   size = event.target.dataset.size;
   canvasSize(size);
   
-  if(event.target.dataset.type === "json") {
+  if(event.target.dataset.type === 'json') {
     getJSON(path, size);
   } else {
     drawImg(path);
