@@ -21,7 +21,7 @@ function drawImg(path) {
 }
 
 // get json from local folder and draw json on canvas
-async function getJSON(path, size) {
+function getJSON(path, size) {
   fetch(path)
     .then(res => res.json())
     .then(data => { 
@@ -60,7 +60,7 @@ function drawOnCanvas(event) {
   size = event.target.dataset.size;
   canvasSize(size);
   
-  if(event.target.dataset.type === "json") {
+  if(event.target.dataset.type === 'json') {
     getJSON(path, size);
   } else {
     drawImg(path);
