@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>codejam-canvas</title>
+  <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="menu">
+    <div class="container">
+      <nav>
+       <div class="menu-icon icon"></div>
+       <p class="logo">CodeJam - Canvas</p>
+     </nav>
+   <div class="dots-icon icon"></div>
+    </div>    
+  </div>
+  
+  <div class="container">
+   <div class="tool-container">
+     <div class="palette tools">
+       <div class="paint tool" title="click P">
+         <div class="icon"></div>
+         <p class="tool-name">Paint bucket</p>
+       </div>
+       <div class="brush tool" title="click C">
+         <div class="icon"></div>
+         <p class="tool-name">Choose color</p>
+       </div>
+       <hr>
+       <div class="move tool" title="click M">
+         <div class="icon"></div>
+         <p class="tool-name">Move</p>
+       </div>
+       <div class="transform tool" title="click T">
+         <div class="icon"></div>
+         <p class="tool-name">Transform</p>
+       </div>
+     </div>
+     <div class="colors tools">
+       <div class="tool">
+         <div class="icon" data-code="#C4C4C4" data-color="grey" data-num="first"></div>
+         <p class="tool-name">Current color</p>
+       </div>
+       <div class="tool">
+         <div class="icon" data-code="#41F795" data-color="green" data-num="second"></div>
+         <p class="tool-name">Prev color</p>
+       </div>
+       <hr>
+       <div class="tool">
+         <div class="icon" data-code="#F74141" data-color="red" data-num="third"></div>
+         <p class="tool-name">red</p>
+       </div>
+       <div class="tool">
+         <div class="icon" data-code="#41B6F7" data-color="blue" data-num="fourth"></div>
+         <p class="tool-name">blue</p>
+       </div>
+     </div>
+   </div> 
+   <canvas class="canvas"></canvas>
+   <div class="controls-container">
+     <form class="controls">       
+        <input type="radio" 
+               class="control"
+               id="json4x4"
+               name="control"
+               data-size="4" 
+               data-path="data/4x4.json" 
+               data-type="json">
+        <label for="json4x4" class="control-label">
+          JSON 4x4
+        </label><br>        
+        <input type="radio" 
+               class="control" 
+               id="json32x32"              
+               name="control"
+               data-size="32" 
+               data-path="data/32x32.json" 
+               data-type="json">
+      <label for="json32x32" class="control-label">
+        JSON 32x32
+      </label><br>      
+        <input type="radio" 
+               class="control"
+               id="image256x256"
+               name="control"
+               data-size="256" 
+               data-path="data/image.png" 
+               data-type="image">
+      <label for="image256x256" class="control-label">
+        image 
+      </label>    
+    </form>
+   </div>
+  </div>  
+  <script src="script.js"></script>
+</body>
+</html>
