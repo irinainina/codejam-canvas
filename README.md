@@ -49,7 +49,7 @@
   2) подтверждаем  email (переходим по ссылке, которая пришла на почту)
   3) создаём приложение https://unsplash.com/oauth/applications
   4) получаем Access Key
-  5) получаем фото для фона по ссылке   
+  5) получаем результат по ссылке   
 ```https://api.unsplash.com/photos/random?query=town,Minsk&client_id=e2077ad31a806c894c460aec8f81bc2af4d09c4f8104ae3177bb809faf0eac17```   
   Здесь   
     ```town,Minsk``` - ключевые слова для поиска  
