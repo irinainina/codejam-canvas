@@ -169,5 +169,7 @@
 - allowing cross-origin use of images and canvas - https://developer.mozilla.org/en-US/docs/Web/HTML/CORS_enabled_image
 - репозиторий с вебпак - https://github.com/abyss-soft/webpack
 - настройка вебпак - https://webpack.js.org/guides/getting-started/
+- authenticated on netlify with GitHub https://docs.netlify.com/visitor-access/oauth-provider-tokens/#setup-and-settings
+- вход на сайт с помощью GitHub. OAuth - https://heap.tech/lore/id26
 * Темы: fetch api, async / await
 
