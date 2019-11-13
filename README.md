@@ -164,7 +164,10 @@
 ## Дополнительная информация
 - Ожидаемое время выполнения - 4 - 10 часов без задания повышенной сложности
 - fetch api - https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch
-- 
-
+- загрузка изображения на canvas - https://developer.mozilla.org/ru/docs/Web/API/CanvasRenderingContext2D/drawImage
+- canvas grayscale - https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API/Tutorial/Pixel_manipulation_with_canvas
+- allowing cross-origin use of images and canvas - https://developer.mozilla.org/en-US/docs/Web/HTML/CORS_enabled_image
+- репозиторий с вебпак - https://github.com/abyss-soft/webpack
+- настройка вебпак - https://webpack.js.org/guides/getting-started/
 * Темы: fetch api, async / await
 
